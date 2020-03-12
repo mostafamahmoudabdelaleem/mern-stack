@@ -1,2 +1,2 @@
-# mern-stack
+# MERN-STACK
 MERN Full Stack Web Application
