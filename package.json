@@ -1,0 +1,29 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "MERN Full Stack Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafamahmoudabdelaleem/mern-stack.git"
+  },
+  "author": "Mostafa Mahmoud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mostafamahmoudabdelaleem/mern-stack/issues"
+  },
+  "homepage": "https://github.com/mostafamahmoudabdelaleem/mern-stack#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
